@@ -1,0 +1,7 @@
+---
+sokol:
+    - 'SOKOL_GLCORE33'
+1-1-1-window:
+    - 'SOKOL_GLCORE33'
+1-2-1-triangle:
+    - 'SOKOL_GLCORE33'

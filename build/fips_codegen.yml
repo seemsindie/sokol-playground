@@ -1,0 +1,7 @@
+- generator: SokolShader.py
+  in: '/home/timelord/Projects/fips-workspace/playground-sokol/src/1-2-hello-triangle/1-triangle.glsl'
+  out_src: null
+  out_hdr: '/home/timelord/Projects/fips-workspace/playground-sokol/build/src/1-2-hello-triangle/1-triangle.glsl.h'
+  args: {slang: 'glsl330', compiler: 'GNU' }
+  env:
+    target_platform: 'linux'

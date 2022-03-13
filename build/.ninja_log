@@ -1,0 +1,5 @@
+# ninja log v5
+0	48	1646878143560646169	src/1-1-hello-window/CMakeFiles/1-1-1-window.dir/1-window.c.o	2a4dd52deaf2b937
+979	1043	1646878144553964791	/home/timelord/Projects/fips-workspace/fips-deploy/playground-sokol/1-1-1-window	bf0cdbc2e1239c98
+0	890	1646878144400633729	libs/sokol/CMakeFiles/sokol.dir/sokol.c.o	77aebef3523dca2d
+891	978	1646878144487299112	libs/sokol/libsokol.a	bb5af3120cb77a7a

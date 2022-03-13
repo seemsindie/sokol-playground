@@ -1,0 +1,37 @@
+#
+# playground-sokol
+#
+---
+policies:
+  no_auto_import: true
+imports:
+  sokol:
+    git: https://github.com/floooh/sokol
+    branch: pre-feb2021-api-changes
+  sokol-tools-bin:
+    git: https://github.com/floooh/sokol-tools-bin
+    branch: pre-feb2021-api-changes
+  fips-utils:
+    git: https://github.com/fips-libs/fips-utils
+#   imports:
+#       PROJ-NAME:
+#           git: GIT-URL
+#           branch: OPTIONAL BRANCH OR TAG NAME
+#   exports:
+#       header-dirs:
+#           - RELATIVE HEADER SEARCH PATH
+#           - ...
+#       lib-dirs:
+#           - RELATIVE LIB SEARCH PATH
+#           - ...
+#       defines:
+#           KEY: VALUE (C preprocessor defines)
+#           ...: ...
+#       modules:
+#           NAME:   DIRECTORY WITH CMakeLists.txt of MODULE
+#           ...: ...
+#   run:
+#       TARGET-NAME:
+#           cwd:    WORKING DIRECTORY FOR 'fips run target'
+#       ...
+

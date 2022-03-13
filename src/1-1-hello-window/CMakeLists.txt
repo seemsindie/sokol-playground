@@ -1,0 +1,5 @@
+fips_begin_app(1-1-1-window windowed)
+  fips_vs_warning_level(3)
+  fips_files(1-window.c)
+  fips_deps(sokol)
+fips_end_app()

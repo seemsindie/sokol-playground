@@ -1,0 +1,265 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/home/timelord/Projects/fips-workspace/fips-deploy/playground-sokol/1-1-1-window"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"fips_end_app",
+			"target_link_libraries",
+			"fips_resolve_dependencies",
+			"target_compile_definitions",
+			"fips_apply_executable_type_defines",
+			"add_definitions",
+			"sokol_config",
+			"include_directories",
+			"include",
+			"fips_setup"
+		],
+		"files" : 
+		[
+			"/home/timelord/Projects/fips-workspace/fips/cmake/fips.cmake",
+			"src/1-1-hello-window/CMakeLists.txt",
+			"/home/timelord/Projects/fips-workspace/fips/cmake/fips_private.cmake",
+			"CMakeLists.txt",
+			"src/CMakeLists.txt",
+			".fips-imports.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 370,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 397,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 53,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 386,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 305,
+				"parent" : 5
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 51,
+				"parent" : 8
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 10,
+				"file" : 3,
+				"line" : 14,
+				"parent" : 10
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 224,
+				"parent" : 11
+			},
+			{
+				"file" : 5,
+				"parent" : 12
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 20,
+				"parent" : 13
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 21,
+				"parent" : 13
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 57,
+				"parent" : 10
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fPIC -pthread -fno-strict-aliasing -Wno-multichar -Wall -Wextra -Wno-unknown-pragmas -Wno-ignored-qualifiers -Wno-missing-field-initializers -Wno-missing-field-initializers -Wno-missing-braces -O0 -D_DEBUG_ -D_DEBUG -DFIPS_DEBUG=1 -ggdb"
+				},
+				{
+					"fragment" : "-std=gnu99"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "FIPS_APP_WINDOWED=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "SOKOL_GLCORE33"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 14,
+					"path" : "/home/timelord/Projects/fips-workspace/sokol"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/home/timelord/Projects/fips-workspace/sokol/util"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/timelord/Projects/fips-workspace/playground-sokol/libs"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "99"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "sokol::@fc51427f0be86d43b44d"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Src/1-1-hello-window"
+	},
+	"id" : "1-1-1-window::@7eae34f6d435587e4f32",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-fPIC -pthread -fno-strict-aliasing -Wno-multichar -Wall -Wextra -Wno-unknown-pragmas -Wno-ignored-qualifiers -Wno-missing-field-initializers -Wno-missing-field-initializers -Wno-missing-braces -O0 -D_DEBUG_ -D_DEBUG -DFIPS_DEBUG=1 -ggdb",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-pthread -dead_strip -lpthread -latomic -lrt   -rdynamic",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "libs/sokol/libsokol.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lX11",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lXi",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lXcursor",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lGL",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "1-1-1-window",
+	"nameOnDisk" : "1-1-1-window",
+	"paths" : 
+	{
+		"build" : "src/1-1-hello-window",
+		"source" : "src/1-1-hello-window"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/1-1-hello-window/1-window.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

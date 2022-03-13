@@ -1,0 +1,14 @@
+---
+sokol:
+    - "/home/timelord/Projects/fips-workspace/sokol"
+    - "/home/timelord/Projects/fips-workspace/sokol/util"
+    - "/home/timelord/Projects/fips-workspace/playground-sokol/libs"
+1-1-1-window:
+    - "/home/timelord/Projects/fips-workspace/sokol"
+    - "/home/timelord/Projects/fips-workspace/sokol/util"
+    - "/home/timelord/Projects/fips-workspace/playground-sokol/libs"
+1-2-1-triangle:
+    - "/home/timelord/Projects/fips-workspace/sokol"
+    - "/home/timelord/Projects/fips-workspace/sokol/util"
+    - "/home/timelord/Projects/fips-workspace/playground-sokol/libs"
+    - "/home/timelord/Projects/fips-workspace/playground-sokol/build/src/1-2-hello-triangle"

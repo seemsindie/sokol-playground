@@ -1,0 +1,16 @@
+Determining if the function __atomic_fetch_add_4 exists failed with the following output:
+Change Dir: /home/timelord/Projects/fips-workspace/playground-sokol/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_f72a0 && [1/2] Building C object CMakeFiles/cmTC_f72a0.dir/CheckFunctionExists.c.o
+<command-line>: warning: conflicting types for built-in function ‘__atomic_fetch_add_4’; expected ‘unsigned int(volatile void *, unsigned int,  int)’ [-Wbuiltin-declaration-mismatch]
+<command-line>: note: in definition of macro ‘CHECK_FUNCTION_EXISTS’
+[2/2] Linking C executable cmTC_f72a0
+FAILED: cmTC_f72a0 
+: && /usr/bin/x86_64-pc-linux-gnu-gcc-10.3.0 -fPIC -pthread -fno-strict-aliasing -Wno-multichar -Wall -Wextra -Wno-unknown-pragmas -Wno-ignored-qualifiers -Wno-missing-field-initializers -DCHECK_FUNCTION_EXISTS=__atomic_fetch_add_4 -rdynamic CMakeFiles/cmTC_f72a0.dir/CheckFunctionExists.c.o -o cmTC_f72a0   && :
+/usr/bin/ld: CMakeFiles/cmTC_f72a0.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `__atomic_fetch_add_4'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+

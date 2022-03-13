@@ -1,0 +1,167 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "libs",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-libs-Debug-ec580da4e47c3b0e73da.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "libs"
+				},
+				{
+					"build" : "libs/sokol",
+					"jsonFile" : "directory-libs.sokol-Debug-1b38c0955d1d62746705.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "libs/sokol",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						4,
+						5
+					],
+					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/1-1-hello-window",
+					"jsonFile" : "directory-src.1-1-hello-window-Debug-258cfab39b50a0e568d9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "src/1-1-hello-window",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/1-2-hello-triangle",
+					"jsonFile" : "directory-src.1-2-hello-triangle-Debug-eec170e523a8143587aa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "src/1-2-hello-triangle",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "playground-sokol",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "1-1-1-window::@7eae34f6d435587e4f32",
+					"jsonFile" : "target-1-1-1-window-Debug-55f978e3cb027f82efa5.json",
+					"name" : "1-1-1-window",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "1-2-1-triangle::@4fc4590b307c27b8ca6d",
+					"jsonFile" : "target-1-2-1-triangle-Debug-225e87e93b46bf118d83.json",
+					"name" : "1-2-1-triangle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_GENERATE::@4fc4590b307c27b8ca6d",
+					"jsonFile" : "target-ALL_GENERATE-Debug-9f498895a0a0707f869a.json",
+					"name" : "ALL_GENERATE",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "sokol::@fc51427f0be86d43b44d",
+					"jsonFile" : "target-sokol-Debug-6ae417a1397f0e301d4d.json",
+					"name" : "sokol",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/timelord/Projects/fips-workspace/playground-sokol/build",
+		"source" : "/home/timelord/Projects/fips-workspace/playground-sokol"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,82 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"fips_handle_generators",
+			"fips_end_app"
+		],
+		"files" : 
+		[
+			"/home/timelord/Projects/fips-workspace/fips/cmake/fips_generators.cmake",
+			"/home/timelord/Projects/fips-workspace/fips/cmake/fips.cmake",
+			"src/1-2-hello-triangle/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 394,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 117,
+				"parent" : 2
+			}
+		]
+	},
+	"id" : "ALL_GENERATE::@4fc4590b307c27b8ca6d",
+	"name" : "ALL_GENERATE",
+	"paths" : 
+	{
+		"build" : "src/1-2-hello-triangle",
+		"source" : "src/1-2-hello-triangle"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/src/1-2-hello-triangle/CMakeFiles/ALL_GENERATE",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/src/1-2-hello-triangle/CMakeFiles/ALL_GENERATE.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

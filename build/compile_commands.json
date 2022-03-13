@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/timelord/Projects/fips-workspace/playground-sokol/build",
+  "command": "/usr/bin/x86_64-pc-linux-gnu-gcc-10.3.0 -DSOKOL_GLCORE33 -I/home/timelord/Projects/fips-workspace/sokol -I/home/timelord/Projects/fips-workspace/sokol/util -I/home/timelord/Projects/fips-workspace/playground-sokol/libs -fPIC -pthread -fno-strict-aliasing -Wno-multichar -Wall -Wextra -Wno-unknown-pragmas -Wno-ignored-qualifiers -Wno-missing-field-initializers -Wno-missing-field-initializers -Wno-missing-braces -O0 -D_DEBUG_ -D_DEBUG -DFIPS_DEBUG=1 -ggdb -std=gnu99 -o libs/sokol/CMakeFiles/sokol.dir/sokol.c.o -c /home/timelord/Projects/fips-workspace/playground-sokol/libs/sokol/sokol.c",
+  "file": "/home/timelord/Projects/fips-workspace/playground-sokol/libs/sokol/sokol.c"
+},
+{
+  "directory": "/home/timelord/Projects/fips-workspace/playground-sokol/build",
+  "command": "/usr/bin/x86_64-pc-linux-gnu-gcc-10.3.0 -DFIPS_APP_WINDOWED=1 -DSOKOL_GLCORE33 -I/home/timelord/Projects/fips-workspace/sokol -I/home/timelord/Projects/fips-workspace/sokol/util -I/home/timelord/Projects/fips-workspace/playground-sokol/libs -fPIC -pthread -fno-strict-aliasing -Wno-multichar -Wall -Wextra -Wno-unknown-pragmas -Wno-ignored-qualifiers -Wno-missing-field-initializers -Wno-missing-field-initializers -Wno-missing-braces -O0 -D_DEBUG_ -D_DEBUG -DFIPS_DEBUG=1 -ggdb -std=gnu99 -o src/1-1-hello-window/CMakeFiles/1-1-1-window.dir/1-window.c.o -c /home/timelord/Projects/fips-workspace/playground-sokol/src/1-1-hello-window/1-window.c",
+  "file": "/home/timelord/Projects/fips-workspace/playground-sokol/src/1-1-hello-window/1-window.c"
+},
+{
+  "directory": "/home/timelord/Projects/fips-workspace/playground-sokol/build",
+  "command": "/usr/bin/x86_64-pc-linux-gnu-gcc-10.3.0 -DFIPS_APP_WINDOWED=1 -DSOKOL_GLCORE33 -I/home/timelord/Projects/fips-workspace/sokol -I/home/timelord/Projects/fips-workspace/sokol/util -I/home/timelord/Projects/fips-workspace/playground-sokol/libs -I/home/timelord/Projects/fips-workspace/playground-sokol/build/src/1-2-hello-triangle -fPIC -pthread -fno-strict-aliasing -Wno-multichar -Wall -Wextra -Wno-unknown-pragmas -Wno-ignored-qualifiers -Wno-missing-field-initializers -Wno-missing-field-initializers -Wno-missing-braces -O0 -D_DEBUG_ -D_DEBUG -DFIPS_DEBUG=1 -ggdb -std=gnu99 -o src/1-2-hello-triangle/CMakeFiles/1-2-1-triangle.dir/1-triangle.c.o -c /home/timelord/Projects/fips-workspace/playground-sokol/src/1-2-hello-triangle/1-triangle.c",
+  "file": "/home/timelord/Projects/fips-workspace/playground-sokol/src/1-2-hello-triangle/1-triangle.c"
+}
+]

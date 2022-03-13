@@ -1,0 +1,16 @@
+/home/timelord/Projects/fips-workspace/playground-sokol/build/CMakeFiles/edit_cache.dir
+/home/timelord/Projects/fips-workspace/playground-sokol/build/CMakeFiles/rebuild_cache.dir
+/home/timelord/Projects/fips-workspace/playground-sokol/build/libs/CMakeFiles/edit_cache.dir
+/home/timelord/Projects/fips-workspace/playground-sokol/build/libs/CMakeFiles/rebuild_cache.dir
+/home/timelord/Projects/fips-workspace/playground-sokol/build/libs/sokol/CMakeFiles/sokol.dir
+/home/timelord/Projects/fips-workspace/playground-sokol/build/libs/sokol/CMakeFiles/edit_cache.dir
+/home/timelord/Projects/fips-workspace/playground-sokol/build/libs/sokol/CMakeFiles/rebuild_cache.dir
+/home/timelord/Projects/fips-workspace/playground-sokol/build/src/CMakeFiles/edit_cache.dir
+/home/timelord/Projects/fips-workspace/playground-sokol/build/src/CMakeFiles/rebuild_cache.dir
+/home/timelord/Projects/fips-workspace/playground-sokol/build/src/1-1-hello-window/CMakeFiles/1-1-1-window.dir
+/home/timelord/Projects/fips-workspace/playground-sokol/build/src/1-1-hello-window/CMakeFiles/edit_cache.dir
+/home/timelord/Projects/fips-workspace/playground-sokol/build/src/1-1-hello-window/CMakeFiles/rebuild_cache.dir
+/home/timelord/Projects/fips-workspace/playground-sokol/build/src/1-2-hello-triangle/CMakeFiles/1-2-1-triangle.dir
+/home/timelord/Projects/fips-workspace/playground-sokol/build/src/1-2-hello-triangle/CMakeFiles/ALL_GENERATE.dir
+/home/timelord/Projects/fips-workspace/playground-sokol/build/src/1-2-hello-triangle/CMakeFiles/edit_cache.dir
+/home/timelord/Projects/fips-workspace/playground-sokol/build/src/1-2-hello-triangle/CMakeFiles/rebuild_cache.dir
